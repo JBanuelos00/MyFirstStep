@@ -4,6 +4,38 @@
 <head>
         <meta charset="UTF-8">
         <title>Second Day Assignment</title>
+        <!-- Here is the start of our CSS formatting for our basic bio page -->
+        <style>
+
+            body {
+                background-color: grey;
+            }
+
+            h1 {
+                background-color: black;
+                text-align: center;
+                color: white;
+            }
+
+            .aboutme {
+                float: left;
+                width: 49.5%;
+                margin: left;
+                border-style: solid;
+                border-width: 2px;
+                border-color: black;
+            }
+
+            .contactinfo {
+                float: right;
+                width: 49.5%;
+                margin: right;
+                border-style: solid;
+                border-width: 2px;
+                border-color: black;
+            }
+
+        </style>
 </head>
 
 <body>
@@ -21,7 +53,7 @@
     <div>
 
         <!-- The about me section including pictures-->
-        <section>
+        <section class="aboutme">
             <!-- h2 is the second most important thing in here -->
             <h2><strong>Student Bio</strong></h2>
             
@@ -31,12 +63,12 @@
             <img src="Homer.jpg" alt="Javier Banuelos" style="width:300px;height:300px;">
 
             <!-- My brief paragraph with a link inserted-->
-            <p>Hi! I'm Javi! I'm super excited to learn how to code websites. Granted this is a rather basic attempt, but I plan on using this as a rock solid foundation to build my coding empire. BWAHAHAHAHAHAHAHAAH! Also check <a href="#" target="_blank">this</a>out! Don't worry it's nothing bad! I promise.</p>
+            <p>Hi! I'm Javi! I'm super excited to learn how to code websites. Granted this is a rather basic attempt, but I plan on using this as a rock solid foundation to build my coding empire. BWAHAHAHAHAHAHAHAAH! Also check <a href="#" target="_blank">this</a> out! Don't worry it's nothing bad! I promise.</p>
         
         </section>
 
         <!-- My contact information -->
-        <section>
+        <section class="contactinfo">
 
             <p><strong>Contact Info</strong></p>
 
